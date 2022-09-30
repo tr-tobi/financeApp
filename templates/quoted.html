@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+        <div class="mb-3">
+            <p> A share of {{ check["name"] }} ({{ check["symbol"] }}) costs {{ usd(check["price"]) }}. </p>
+        </div>
+{% endblock %}
