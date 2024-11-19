@@ -52,6 +52,6 @@ Windows PowerShell:
 
 `$env:FLASK_APP = "application.py"`
 
-Run Flask and you're good to go!
+Run Flask and you're good to go:
 
 `flask run`
